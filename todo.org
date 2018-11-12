@@ -1,0 +1,52 @@
+* Incremental Gameloop
+What sort of gameloop do we want?
+
+Remember the original design goal is "After-action report generator"
+
+We want to be able to handle combat at any scale at any theatre.
+
+How would we turn that into an incremental?
+- Generate reports, to generate more reports.
+- Generate logistical reports
+- Generate medal reports
+- Generate... (You get the point)
+
+
+An issue would be the battlefield generator. How would we simulate a
+battlefield such that we can generate good reports?
+
+** After Action Report Generator
+
+Reports as a storytelling service? We can drip events and get the user
+to form a narrative out of it
+
+** Looters
+
+** Gacha
+
+** Farmville
+
+** SVG generator for NATO military symbols (That we'll eventually use for space combat maybe)
+
+* The Academy
+
+The core game loop is:
+
+- Exploit existing territory
+  - Initially for name generation probabilities
+  - Maybe manpower as a generating resource
+- Train additional commanders
+  - Officers only for now (which means the lowest level of command is
+    the platoon). NCOs to come eventually, then everyone else
+- Send them and the units they command to acquire more territory
+  - The fights will generate reports
+
+
+** Phase 1
+
+*** Territory counter (could be simple)
+
+* Re-frame Cheatsheet
+* Reagent Cheatsheet
+
+* Clojure Cheatsheet-And-Experiments
