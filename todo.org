@@ -46,7 +46,11 @@ The core game loop is:
 
 *** Territory counter (could be simple)
 
-* Re-frame Cheatsheet
-* Reagent Cheatsheet
+* Terrain graph
 
-* Clojure Cheatsheet-And-Experiments
+How would we simulate the terrain, so we can build some sort of high
+level battlefield out of it
+
+#+BEGIN_SRC edn
+  ()
+#+END_SRC
